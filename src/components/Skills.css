@@ -1,0 +1,81 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  border-color: #3498db;
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-size: 1.8rem;
+}
+
+.skill-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-card ul li {
+  padding: 6px 0;
+  color: #475569;
+}
+
+.salary-highlight {
+  background: linear-gradient(135deg, #fef9e7, #fdebd0);
+  padding: 20px 30px;
+  border-radius: 12px;
+  border-left: 4px solid #f39c12;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.salary-highlight del {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.target-salary {
+  color: #27ae60;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.badge {
+  background: #27ae60;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 8px;
+  text-transform: uppercase;
+}

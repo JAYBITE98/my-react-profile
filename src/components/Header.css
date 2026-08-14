@@ -1,0 +1,90 @@
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #2d4a7a 100%);
+  padding: 80px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+.profile-image-wrapper {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  padding: 5px;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  box-shadow: 0 20px 60px rgba(52, 152, 219, 0.3);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0f172a;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle .highlight {
+  display: inline-block;
+  background: rgba(52, 152, 219, 0.2);
+  padding: 2px 14px;
+  border-radius: 20px;
+  margin: 3px 5px;
+  font-weight: 600;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #3498db;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 0 40px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .profile-image-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+}
